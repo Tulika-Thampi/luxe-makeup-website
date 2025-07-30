@@ -1,0 +1,44 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\geometry{margin=1in}
+\definecolor{headerbg}{RGB}{236,72,153}
+\definecolor{headertext}{RGB}{255,247,237}
+\definecolor{celltext}{RGB}{75,85,99}
+\definecolor{bordercolor}{RGB}{249,115,22}
+
+\begin{document}
+\begin{center}
+    \textbf{\Large Luxe Beauty} \\
+    \vspace{0.5cm}
+    \textbf{Purchase Receipt} \\
+    \vspace{0.5cm}
+\end{center}
+
+\begin{tabular}{|l|r|r|r|}
+    \hline
+    \rowcolor{headerbg}
+    \color{headertext} \textbf{Product} & \color{headertext} \textbf{Quantity} & \color{headertext} \textbf{Price} & \color{headertext} \textbf{Total} \\
+    \hline
+    %receiptItems%
+    \hline
+    \color{celltext} \textbf{Subtotal} & & & \color{celltext} \$%subtotal% \\
+    \hline
+    \color{celltext} \textbf{GST (12\%)} & & & \color{celltext} \$%gst% \\
+    \hline
+    \color{celltext} \textbf{Discount (2\%)} & & & \color{celltext} \$%discount% \\
+    \hline
+    \color{celltext} \textbf{Grand Total} & & & \color{celltext} \$%grandTotal% \\
+    \hline
+\end{tabular}
+
+\vspace{1cm}
+\begin{center}
+    \textit{Thank you for shopping with Luxe Beauty!} \\
+    \textit{© 2025 Luxe Beauty}
+\end{center}
+\end{document}

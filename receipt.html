@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <title>Luxe - Receipt</title>
+</head>
+<body>
+    <main>
+        <section class="receipt-section">
+            <h2>Purchase Receipt</h2>
+            <div class="logo-container" style="justify-content: center; margin-bottom: 20px;">
+                <img src="logo.svg" alt="Luxe Logo" class="logo">
+            </div>
+            <h3>Luxe Beauty</h3>
+            <table class="receipt-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="receiptItems"></tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Subtotal</td>
+                        <td id="subtotal">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">GST (12%)</td>
+                        <td id="gst">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Discount (2%)</td>
+                        <td id="discount">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Grand Total</td>
+                        <td id="grandTotal">$0.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <button class="btn" onclick="downloadReceipt()">Download PDF</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

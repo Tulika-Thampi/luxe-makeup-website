@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <title>Luxe - Your One Stop Shop For Beauty</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.svg" alt="Luxe Logo" class="logo">
+        </div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="shop.html">Shop</a>
+            <a href="cart.html">Cart</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="shop-section">
+            <h2>Our Collection</h2>
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search products...">
+            </div>
+            <div class="filter-container">
+                <div class="filter-options">
+                    <label><input type="checkbox" value="Lipstick" onchange="filterProducts()"> Lipstick</label>
+                    <label><input type="checkbox" value="Eyeshadow" onchange="filterProducts()"> Eyeshadow</label>
+                    <label><input type="checkbox" value="Foundation" onchange="filterProducts()"> Foundation</label>
+                    <label><input type="checkbox" value="Blush" onchange="filterProducts()"> Blush</label>
+                    <label><input type="checkbox" value="Mascara" onchange="filterProducts()"> Mascara</label>
+                    <label><input type="checkbox" value="Collections" onchange="filterProducts()"> Collections</label>
+                </div>
+                <div id="selectedFilters" class="selected-filters"></div>
+            </div>
+            <div id="featuredSection" class="featured-section" style="display: none;">
+                <h3 class="featured-title">Featured Items</h3>
+                <div id="featuredGrid" class="product-grid"></div>
+            </div>
+            <h3 class="our-products">Products</h3>
+            <div class="product-grid" id="productGrid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-text">© 2025 Luxe Beauty</p>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">
+            <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" class="footer-icon">
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener">
+            <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram" class="footer-icon">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

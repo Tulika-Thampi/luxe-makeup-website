@@ -1,0 +1,310 @@
+[
+    {
+        "id": 1,
+        "name": "Pinks",
+        "price": 24.99,
+        "category": "Lipstick",
+        "image": "images/lipsticks/lipstick1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Royal Red",
+        "price": 23.99,
+        "category": "Lipstick",
+        "image": "images/lipsticks/lipstick2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Maroon Waves",
+        "price": 18.20,
+        "category": "Lipstick",
+        "image": "images/lipsticks/lipstick3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Rose Red",
+        "price": 22.49,
+        "category": "Lipstick",
+        "image": "images/lipsticks/lipstick4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Pastel Lines Collection",
+        "price": 20.49,
+        "category": "Lipstick",
+        "image": "images/lipsticks/lipstick5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Signature",
+        "price": 22.00,
+        "category": "Lipstick",
+        "image": "images/lipsticks/lipstick6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Devilish Charm",
+        "price": 21.49,
+        "category": "Lipstick",
+        "image": "images/lipsticks/lipstick7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Blood Red",
+        "price": 23.69,
+        "category": "Lipstick",
+        "image": "images/lipsticks/lipstick8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Rose Petal",
+        "price": 22.49,
+        "category": "Lipstick",
+        "image": "images/lipsticks/lipstick9.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Red Glow",
+        "price": 16.99,
+        "category": "Eyeshadow",
+        "image": "images/eyeshadows/eyeshadow1.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Double Edge",
+        "price": 15.49,
+        "category": "Eyeshadow",
+        "image": "images/eyeshadows/eyeshadow2.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Splash Of Color",
+        "price": 16.49,
+        "category": "Eyeshadow",
+        "image": "images/eyeshadows/eyeshadow3.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Barbie Pink",
+        "price": 17.59,
+        "category": "Eyeshadow",
+        "image": "images/eyeshadows/eyeshadow4.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Sunset Shades",
+        "price": 18.00,
+        "category": "Eyeshadow",
+        "image": "images/eyeshadows/eyeshadow5.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Kitsune",
+        "price": 16.99,
+        "category": "Eyeshadow",
+        "image": "images/eyeshadows/eyeshadow6.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Rainbow",
+        "price": 16.49,
+        "category": "Eyeshadow",
+        "image": "images/eyeshadows/eyeshadow7.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Glittering Gold",
+        "price": 19.99,
+        "category": "Eyeshadow",
+        "image": "images/eyeshadows/eyeshadow8.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Beach Vibe",
+        "price": 33.49,
+        "category": "Foundation",
+        "image": "images/foundations/foundation1.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Gentle Beauty",
+        "price": 36.99,
+        "category": "Foundation",
+        "image": "images/foundations/foundation2.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Silk",
+        "price": 39.99,
+        "category": "Foundation",
+        "image": "images/foundations/foundation3.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Glam and Glow",
+        "price": 34.49,
+        "category": "Foundation",
+        "image": "images/foundations/foundation4.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Snow's Touch",
+        "price": 37.00,
+        "category": "Foundation",
+        "image": "images/foundations/foundation5.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Twin Red",
+        "price": 39.99,
+        "category": "Blush",
+        "image": "images/blushes/blush1.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Peach Heart",
+        "price": 29.99,
+        "category": "Blush",
+        "image": "images/blushes/blush2.jpg"
+    },
+    {
+        "id": 42,
+        "name": "Peach Blossom",
+        "price": 26.49,
+        "category": "Blush",
+        "image": "images/blushes/blush3.jpg"
+    },
+    {
+        "id": 43,
+        "name": "Pink Sparkle",
+        "price": 24.49,
+        "category": "Blush",
+        "image": "images/blushes/blush4.jpg"
+    },
+    {
+        "id": 44,
+        "name": "Elegance In Shyness",
+        "price": 25.00,
+        "category": "Blush",
+        "image": "images/blushes/blush5.jpg"
+    },
+    {
+        "id": 50,
+        "name": "Deep Black Sea",
+        "price": 13.49,
+        "category": "Mascara",
+        "image": "images/mascaras/mascara1.jpg"
+    },
+    {
+        "id": 51,
+        "name": "Cat Eyes",
+        "price": 14.49,
+        "category": "Mascara",
+        "image": "images/mascaras/mascara2.jpg"
+    },
+    {
+        "id": 53,
+        "name": "Black Swan",
+        "price": 15.99,
+        "category": "Mascara",
+        "image": "images/mascaras/mascara3.jpg"
+    },
+    {
+        "id": 51,
+        "name": "Walking On A Line",
+        "price": 14.99,
+        "category": "Mascara",
+        "image": "images/mascaras/mascara4.jpg"
+    },
+    {
+        "id": 51,
+        "name": "Black Swallow",
+        "price": 15.49,
+        "category": "Mascara",
+        "image": "images/mascaras/mascara5.jpg"
+    },
+    {
+        "id": 51,
+        "name": "Queen's Gaze",
+        "price": 14.99,
+        "category": "Mascara",
+        "image": "images/mascaras/mascara6.jpg"
+    },
+    {
+        "id": 60,
+        "name": "Pink Blossoms",
+        "price": 22.99,
+        "category": "Collections",
+        "image": "images/collections/brushset1.jpg"
+    },
+    {
+        "id": 61,
+        "name": "Landscape Of Grey",
+        "price": 21.49,
+        "category": "Collections",
+        "image": "images/collections/brushset2.jpg"
+    },
+    {
+        "id": 62,
+        "name": "Violet Memory",
+        "price": 19.00,
+        "category": "Collections",
+        "image": "images/collections/brushset3.jpg"
+    },
+    {
+        "id": 63,
+        "name": "Scintillate",
+        "price": 20.49,
+        "category": "Collections",
+        "image": "images/collections/set1.jpg"
+    },
+    {
+        "id": 64,
+        "name": "Beauty In Order",
+        "price": 18.49,
+        "category": "Collections",
+        "image": "images/collections/set2.jpg"
+    },
+    {
+        "id": 65,
+        "name": "Rose Gold Collection",
+        "price": 21.49,
+        "category": "Collections",
+        "image": "images/collections/set3.jpg"
+    },
+    {
+        "id": 66,
+        "name": "Pinks Collection (Signature)",
+        "price": 24.99,
+        "category": "Collections",
+        "image": "images/collections/set4.jpg"
+    },
+    {
+        "id": 67,
+        "name": "Copper Hourglass",
+        "price": 19.99,
+        "category": "Collections",
+        "image": "images/collections/set5.jpg"
+    },
+    {
+        "id": 68,
+        "name": "Antique Glow",
+        "price": 19.49,
+        "category": "Collections",
+        "image": "images/collections/set6.jpg"
+    },
+    {
+        "id": 69,
+        "name": "Soft Glitter",
+        "price": 21.00,
+        "category": "Collections",
+        "image": "images/collections/set7.jpg"
+    },
+    {
+        "id": 70,
+        "name": "Double Edge (Collection)",
+        "price": 21.99,
+        "category": "Collections",
+        "image": "images/collections/set8.jpg"
+    }
+]

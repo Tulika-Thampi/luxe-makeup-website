@@ -1,0 +1,13 @@
+<svg width="75" height="75" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="luxeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#F472B6;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#FDBA74;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <path d="M30 20 H70 L90 50 L50 90 L10 50 Z" fill="url(#luxeGradient)" stroke="#DC2626" stroke-width="2" />
+    <path d="M30 20 L50 35 L70 20" fill="none" stroke="#DC2626" stroke-width="1" stroke-opacity="0.5" />
+    <path d="M10 50 L50 35 L90 50" fill="none" stroke="#DC2626" stroke-width="1" stroke-opacity="0.5" />
+    <path d="M50 35 L50 90" fill="none" stroke="#DC2626" stroke-width="1" stroke-opacity="0.5" />
+    <text x="50" y="60" font-family="Inter, sans-serif" font-size="26" fill="#FFF7ED" text-anchor="middle">Luxe</text>
+</svg>
